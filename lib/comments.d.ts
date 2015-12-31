@@ -7,8 +7,8 @@ declare module WPApi {
         author_name?: string;
         author_url?: string;
         content?: string;
-        date?: string;
-        date_gmt?: string;
+        date?: any;
+        date_gmt?: any;
         karma?: number;
         parent?: number;
         post?: number;

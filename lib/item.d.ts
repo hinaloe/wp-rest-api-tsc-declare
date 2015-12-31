@@ -4,13 +4,13 @@ declare module WPApi {
 
 
     interface Item {
-        date?: string;
-        date_gmt?: string;
+        date?: any;
+        date_gmt?: any;
 
 
 
-        modified?: string;
-        modified_gmt?: string;
+        modified?: any;
+        modified_gmt?: any;
         password?: string;
         slug?: string;
         status?: string;
