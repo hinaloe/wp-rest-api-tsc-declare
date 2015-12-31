@@ -1,5 +1,5 @@
 declare module WPApi {
-    interface Taxnomy {
+    interface Taxonomy {
         description: string;
         hierarchal: boolean;
         labels: TaxnomyLabels;
