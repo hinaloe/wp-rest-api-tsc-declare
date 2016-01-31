@@ -1,6 +1,18 @@
 {
   "name": "wp-api",
   "main": "index.d.ts",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "wp-api-comments": "file:lib/comments.d.ts",
+    "wp-api-common": "file:lib/common.d.ts",
+    "wp-api-item": "file:lib/item.d.ts",
+    "wp-api-media": "file:lib/media.d.ts",
+    "wp-api-pages": "file:lib/pages.d.ts",
+    "wp-api-post-meta": "file:lib/post-meta.d.ts",
+    "wp-api-post-revisions": "file:lib/post-revisions.d.ts",
+    "wp-api-post-terms": "file:lib/post-terms.d.ts",
+    "wp-api-posts": "file:lib/posts.d.ts",
+    "wp-api-taxnomies": "file:lib/taxnomies.d.ts",
+    "wp-api-types": "file:lib/types.d.ts",
+    "wp-api-users": "file:lib/users.d.ts"
+  }
 }
