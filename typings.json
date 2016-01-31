@@ -1,7 +1,7 @@
 {
   "name": "wp-api",
   "main": "index.d.ts",
-  "dependencies": {
+  "ambientDependencies": {
     "wp-api-comments": "file:lib/comments.d.ts",
     "wp-api-common": "file:lib/common.d.ts",
     "wp-api-item": "file:lib/item.d.ts",
