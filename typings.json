@@ -1,0 +1,6 @@
+{
+  "name": "wp-api",
+  "main": "index.d.ts",
+  "dependencies": {},
+  "devDependencies": {}
+}
